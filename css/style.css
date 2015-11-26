@@ -1,3 +1,17 @@
 body { font-family: Roboto; }
 
 .container { max-width: 1024px}
+
+.player-card .mdl-card__media {
+	height: 230px;
+	background-size: cover;
+}
+
+img.team-photo  { height: 100%; }
+
+.player-card .mdl-card__title {
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.player-card .mdl-card__title .mdl-card__title-text { align-self: center; }
