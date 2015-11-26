@@ -4,8 +4,76 @@
 		<title>Bristol Bluebirds Hockey Club</title>
 		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.blue-light_blue.min.css" /> 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<meta content="width=device-width" name="viewport">
+	    <meta content="initial-scale=1, user-scalable=no" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta charset="UTF-8">
 	</head>
-	<body>
-		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+	<body class="noSelect mdl-color--grey-200">
+	    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+	    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+	        <header class="mdl-layout__header">
+	            <div class="mdl-layout__header-row">
+	                <span class="mdl-layout__title">Bristol Bluebirds<span class="mdl-layout--large-screen-only">Hockey Club</span></span>
+	                <div class="mdl-layout-spacer"></div>
+	            </div>
+	            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+					<a href="#tabAbout" class="mdl-layout__tab is-active">About Us</a>
+					<a href="#tabResults" class="mdl-layout__tab">Results</a>
+					<a href="#tabCommittee" class="mdl-layout__tab">Committee</a>
+					<a href="#tabSocial" class="mdl-layout__tab">Social</a>
+					<a href="#tabContact" class="mdl-layout__tab">Contact</a>
+			    </div>
+	        </header>
+
+	        <main class="mdl-layout__content">
+	            <section class="mdl-layout__tab-panel is-active" id="tabAbout">
+              	 	<div class="mdl-grid container">
+			        	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+			        		About Us + Stuff!
+			        	</div>
+			    	</div>
+                </section>
+				<section class="mdl-layout__tab-panel" id="tabResults">
+					<div class="page-content">
+						<div class="mdl-grid container">
+				        	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+				        		Results Page
+				        	</div>
+				    	</div>
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="tabCommittee">
+					<div class="page-content">
+						<div class="mdl-grid container">
+				        	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+				        		Committee
+				        	</div>
+				    	</div>
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="tabSocial">
+					<div class="page-content">
+						<div class="mdl-grid container">
+				        	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+				        		Social Things
+				        	</div>
+				    	</div>
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="tabContact">
+					<div class="page-content">
+						<div class="mdl-grid container">
+				        	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+				        		Contact
+				        	</div>
+				    	</div>
+					</div>
+				</section>
+	        </main>
+
+	    </div>
 	</body>
 </html>
