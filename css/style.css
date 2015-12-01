@@ -1,13 +1,28 @@
-body { font-family: Roboto; }
+/* Global Settings */
 
+body { font-family: Roboto; }
 .container { max-width: 1024px}
+
+/* Utility Classes */
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-italic { font-style: italic; }
+.opacity25 { opacity: .25; }
+.opacity50 { opacity: .50; }
+.opacity75 { opacity: .75; }
+
+/* About Us Page */
+
+img.team-photo  { height: 100%; }
+
+/* Committee Page */
 
 .player-card .mdl-card__media {
 	height: 230px;
 	background-size: cover;
 }
-
-img.team-photo  { height: 100%; }
 
 .player-card .mdl-card__title {
 	-webkit-flex-direction: column;
@@ -15,3 +30,7 @@ img.team-photo  { height: 100%; }
 }
 
 .player-card .mdl-card__title .mdl-card__title-text { align-self: center; }
+
+/* Find Us Page */
+
+#map { height: 400px; }
