@@ -2,7 +2,13 @@
 
 body { font-family: Roboto; }
 .container { max-width: 1024px}
-.mdl-data-table tr { line-height: 24px;}
+.mdl-data-table {
+	line-height: 24px;
+	border: none;
+	border-radius: 2px;
+}
+.mdl-data-table tr:first-child, .mdl-data-table tr:first-child td { border-top: none; }
+.mdl-data-table tr:last-child, .mdl-data-table tr:last-child td { border-bottom: none; }
 
 /* Utility Classes */
 
