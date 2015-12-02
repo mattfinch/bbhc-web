@@ -2,6 +2,7 @@
 
 body { font-family: Roboto; }
 .container { max-width: 1024px}
+.mdl-data-table tr { line-height: 24px;}
 
 /* Utility Classes */
 
@@ -33,4 +34,4 @@ img.team-photo  { height: 100%; }
 
 /* Find Us Page */
 
-#map { height: 400px; }
+#map { height: 350px; }
